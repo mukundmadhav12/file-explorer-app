@@ -1,0 +1,30 @@
+.file-explorer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.tree {
+  width: 30%;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.content {
+  width: 70%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.file-operation {
+  margin-top: 20px;
+}
+
+.file-operation input {
+  margin-right: 10px;
+}
+
+.file-operation button {
+  margin-right: 10px;
+}
